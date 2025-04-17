@@ -925,3 +925,15 @@ img {
   display: block; /* إزالة المسافة البيضاء أسفل الصورة */
   margin: 0 auto; /* محاذاة الصورة في المنتصف */
 }
+@media (max-width: 1000px) {
+  body {
+    font-size: 140px;
+  }
+  .row h2 {
+    font-size: 50px;
+  }
+  .row button {
+    width: 170px;
+    height: 60px;
+  }
+}
